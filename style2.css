@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+	background-image:url(Picture/f239b5fe-7912-485a-9279-ab3b1269c08b.png);
+	;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+nav{
+	display: flex;
+	padding: 3% 7%;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{
+	color: #000080;
+	font-size: 35px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 9px 13px;
+}
+.nav-links ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 5px 20px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #000080;
+	display: block;
+	margin: auto;
+	transition: 1.25s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;	
+}
+.text-box h2{
+	font-size: 50px;
+	color: #000080;
+	text-align: center;
+}
+nav .fa{
+	display: none;
+}
+
+@media(max-width: 700px){
+	.text-box h1{
+		font-size: 40px;
+		color: #000080;
+	}
+	.text-box p{
+		font-size: 15px;
+	}
+	.nav-links ul li{
+		display: block;
+	}
+	.nav-links{
+		position: absolute;
+		background: #FFFF00;
+		height: 100vh;
+		width: 175px;
+		top: 0;
+		right: -200px;
+		text-align: left;
+		z-index: 2;
+		transition: 0.75s;
+	}
+	nav .fa{
+		display: block;
+		color: #000000;
+		cursor: pointer;
+		font-size: 20px;
+		margin: 10px;
+	}
+	.nav-links ul{
+		padding: 20px;
+	}
+}
+.text-box h2{
+	font-size: 50px;
+	color: #000080;
+	margin-top: 100px;
+}
+.target p{
+	color: #000000;
+	margin: 0px 25px;
+}
+.destination{
+	padding-top: 8%;
+}
+.destination h2{
+	font-size: 35px;
+	text-align: center;
+	text-decoration: underline;
+}
+.dest img{
+	width: 35%;
+	right: 10%;
+	padding: 60px;
+	
+}
+.dest{
+	display: flex;
+	align-items: center;
+}
+.dest p{
+	background: #add8e6;
+	border-radius: 10px;
+	padding: 20px 12px;
+	margin-bottom: 2;
+	box-sizing: border-box;
+	margin: 0px 100px;
+}
+.mouse img{
+	width: 35%;
+	right: 10%;
+	padding: 60px;
+	width: 520x;
+	height: 320px;
+	
+}
+.mouse{
+	display: flex;
+	align-items: center;
+}
+.mouse p{
+	background: #add8e6;
+	border-radius: 10px;
+	padding: 20px 12px;
+	margin-bottom: 2;
+	box-sizing: border-box;
+	margin: 0px 100px;
+}
+.shann img{
+	width: 35%;
+	right: 10%;
+	padding: 60px;
+	width: 550x;
+	height: 400px;
+}
+.shann{
+	display: flex;
+	align-items: center;
+}
+.shann p{
+	background: #add8e6;
+	border-radius: 10px;
+	padding: 20px 12px;
+	margin-bottom: 2;
+	box-sizing: border-box;
+	margin: 0px 100px;
+}
+
+
+
+
+
+
+
+
+
